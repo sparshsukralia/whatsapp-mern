@@ -3,12 +3,13 @@ import DonutLargeIcon from "@material-ui/icons/DonutLarge";
 import ChatIcon from "@material-ui/icons/Chat";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import "./Sidebar.css";
-import { IconButton } from "@material-ui/core";
+import { Avatar, IconButton } from "@material-ui/core";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar__header">
+        <Avatar src="https://avatars3.githubusercontent.com/u/52800636?s=460&u=53f0da4410a19ca2fc429b2793b5768391f690f3&v=4" />
         <div className="sidebar__headerRight">
           <IconButton>
             <DonutLargeIcon />
