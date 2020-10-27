@@ -3,3 +3,10 @@
   flex-direction: column;
   flex: 0.65;
 }
+
+.chat__header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
