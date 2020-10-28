@@ -8,7 +8,6 @@ const Chat = () => {
     <div className="chat">
       <div className="chat__header">
         <Avatar />
-
         <div className="chat__headerInfo">
           <h3>Room Name</h3>
           <p>Last seen at ...</p>
