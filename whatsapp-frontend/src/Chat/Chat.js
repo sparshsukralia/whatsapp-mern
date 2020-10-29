@@ -49,12 +49,16 @@ const Chat = () => {
       </div>
 
       <div className="chat__footer">
-        <InsertEmoticonIcon />
+        <IconButton>
+          <InsertEmoticonIcon />
+        </IconButton>
         <form>
           <input placeholder="Type a message..." type="text" />
           <button type="submit">Send a message</button>
         </form>
-        <MicIcon />
+        <IconButton>
+          <MicIcon />
+        </IconButton>
       </div>
     </div>
   );
